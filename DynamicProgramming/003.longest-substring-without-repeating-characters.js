@@ -2,6 +2,7 @@
  * @param {string} s
  * @return {number}
  */
+// this is only slightly better than brute-force but i wanted to work on dynamic programming!
 var lengthOfLongestSubstring = function(s) {
     let max = 0;
     let arr = {};
